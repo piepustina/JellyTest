@@ -18,14 +18,10 @@ jobs:
     - name: Install dependencies
       run: |
            pip install sphinx sphinx_rtd_theme myst_parser furo sphinxcontrib-matlabdomain sphinxcontrib-bibtex
-    - name: Move the sphinx directory
-      run: |
-           cd docs
-    - name: Check current directory
+    - name: Run the make file
+      working-directory: ./docs
       run: |
            ls -l
-    - name: Run the make file
-      run: |
            make html
     - name: Sphinx build
       run: |
