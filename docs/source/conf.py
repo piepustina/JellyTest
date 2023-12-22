@@ -35,7 +35,7 @@ exclude_patterns = []
 
 # Configure the matlab extension
 primary_domain = "mat"
-matlab_src_dir = "/media/Dati/Desktop/Sapienza/Dottorato/KaneToolboxV2/"
+matlab_src_dir = "../"
 matlab_short_links = True
 
 # Configure the bibtex extension
