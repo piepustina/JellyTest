@@ -5,9 +5,8 @@
 
 import pathlib
 import sys
-#sys.path.insert(0, pathlib.Path(__file__).parents[2].resolve().as_posix())
-sys.path.insert(0, '../')
-
+import os
+sys.path.insert(0, pathlib.Path(__file__).parents[2].resolve().as_posix())
 
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
@@ -37,7 +36,7 @@ exclude_patterns = []
 
 # Configure the matlab extension
 primary_domain = "mat"
-matlab_src_dir = "../"
+matlab_src_dir = "./"
 matlab_short_links = True
 
 # Configure the bibtex extension

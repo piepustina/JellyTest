@@ -20,7 +20,7 @@ jobs:
            pip install sphinx sphinx_rtd_theme myst_parser furo sphinxcontrib-matlabdomain sphinxcontrib-bibtex
     - name: Sphinx build
       run: |
-           sphinx-build docs/source docs/build
+           sphinx-build docs/source docs/build/html
     - name: Upload artifacts
       uses: actions/upload-artifact@v3
       with:
