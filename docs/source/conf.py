@@ -36,7 +36,7 @@ exclude_patterns = []
 
 # Configure the matlab extension
 primary_domain = "mat"
-matlab_src_dir = "./"
+matlab_src_dir = "../"
 matlab_short_links = True
 
 # Configure the bibtex extension
