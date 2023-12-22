@@ -43,10 +43,6 @@ matlab_short_links = True
 bibtex_bibfiles = ["references.bib"]
 bibtex_default_style = 'unsrt'
 
-# Configure latex extension
-# imgmath_embed = True
-# imgmath_latex_preamble = '\\usepackage{siunitx}'
-
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
