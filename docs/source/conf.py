@@ -37,7 +37,9 @@ exclude_patterns = []
 
 # Configure the matlab extension
 primary_domain = "mat"
-matlab_src_dir = "../src"
+this_dir = os.path.dirname(__file__)
+matlab_src_dir = os.path.abspath(os.path.join(this_dir, "..", "..", "src"))
+# matlab_src_dir = "../src"
 matlab_short_links = True
 
 # Configure the bibtex extension
